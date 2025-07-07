@@ -8,7 +8,7 @@ export default function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
-  const API_KEY = 'YOUR_OPENWEATHERMAP_API_KEY'; // <-- Replace with your API key
+  const API_KEY = 'bfe5d63cbf1c82970435bae7e5de6b4f';
 
   const getWeather = async () => {
     if (!city) return;
